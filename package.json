@@ -1,0 +1,25 @@
+{
+  "author": "Dennis Torres <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/d-connection/issues"
+  },
+  "description": "A Derby JS connection component.",
+  "keywords": [
+    "component",
+    "connection",
+    "derby",
+    "reconnect"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "d-connection",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psirenny/d-connection.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
