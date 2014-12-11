@@ -6,7 +6,7 @@ A [Derby JS](http://derbyjs.com) connection component.
 Installation
 ------------
 
-$ npm install d-connection --save
+    $ npm install d-connection --save
 
 Usage
 -----
@@ -18,7 +18,7 @@ Create a view:
       <div class="alert">
         Disconnected
         <button class="btn pull-right" disabled="{{reconnecting}}">
-          {{reconnecting ? 'Reconnecting...' : 'Reconnect'}}
+          {{reconnecting ? 'Reconnecting…' : 'Reconnect'}}
         </button>
       </div>
       {{/}}
@@ -40,6 +40,6 @@ Methods
 Properties
 ----------
 
-**reconnecting** - Boolean that is set to `true` while attempting to reconnecting.
+**reconnecting** - Boolean that is set to `true` while attempting to reconnect.
 
 **timeout** - The amount of time in milliseconds that it will wait to reconnect. Defaults to `1000`.
